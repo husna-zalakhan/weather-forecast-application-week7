@@ -4,49 +4,63 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Roboto:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <hearder>
-      <form>
-        <input type="search" placeholder="Enter the city.." required>
-        <input type= "submit" value= "search"> 
-
-    </hearder>
-    <main>
-      <h1>
-        <div>
-        Kabul
-      </h1>
-      <p>
-        Wednesday 15:18, clear sky
-        <br/>
-        Humidity: 13% Wind: 11mph 
-      </p>
-      </div>
-      <div>
-        ☀️ 35&deg;C
-      </div>
-    </main>
-
-    <footer>
-      <p>
-        This project was coded by
-        <a href="https://github.com/husna-zalakhan" target="-blank"
-          >Husna Zala Khan</a
-        >
-        , is
-        <a
-          href="https://github.com/husna-zalakhan/weather-forecast-application-week7"
-          target="-blank"
-          >open-sourced on GitHub </a
-        >, and
-        <a
-          href="https://weather-forecast-application-week7.netlify.app/"
-          target="-blank"
-          >hosted on Netlify.
-        </a>
-      </p>
-    </footer>
+    <div class="weather-app">
+      <header>
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter the city.."
+            class="search-city"
+            required
+          />
+          <input type="submit" value="search" class="search-button" />
+        </form>
+      </header>
+      <main>
+        <div class="weather-data">
+          <div>
+            <h1 class="weather-city">Kabul</h1>
+            <p class="detail">
+              Wednesday 15:18, clear sky
+              <br />
+              Humidity:<strong>13%</strong> Wind: <strong>11mph</strong>
+            </p>
+          </div>
+          <div class="tem-detail">
+            <div class="emoji">☀️</div>
+            <div class="degree">35</div>
+            <div class="unit">&deg;C</div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <p>
+          This project was coded by
+          <a href="https://github.com/husna-zalakhan" target="_blank"
+            >Husna Zala Khan</a
+          >
+          , is
+          <a
+            href="https://github.com/husna-zalakhan/weather-forecast-application-week7"
+            target="_blank"
+            >open-sourced on GitHub </a
+          >, and
+          <a
+            href="https://weather-forecast-application-week7.netlify.app/"
+            target="_blank"
+            >hosted on Netlify.
+          </a>
+        </p>
+      </footer>
+    </div>
   </body>
 </html>
