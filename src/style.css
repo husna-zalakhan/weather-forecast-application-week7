@@ -72,17 +72,20 @@ main {
 .tem-detail {
   display: flex;
 }
-.emoji {
-  font-size: 40px;
+.icon {
+  width: 88px;
+  height: 88px;
 }
 .temperature {
   font-size: 88px;
   line-height: 88px;
   font-weight: bold;
+  line-height: 88px;
 }
 .unit {
   margin-top: 6px;
   font-size: 28px;
+  font-weight: bold;
 }
 footer {
   font-size: 14px;
