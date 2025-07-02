@@ -17,7 +17,7 @@ a {
   border: 30px 30px;
   max-width: 600px;
   margin: 45px auto;
-  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  box-shadow: 0 60px 100px rgba(80, 130, 220, 0.12);
   border-radius: 16px;
 }
 header {
